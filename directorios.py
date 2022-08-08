@@ -21,6 +21,7 @@ class CreadorPlantillaAplicacion(QMainWindow):
         #nombre = QFileDialog.getOpenFileName(self, 'seleccion de archivo', 'C:/')
         #ruta = nombre[0]
         self.ui.Seleccion.setText(folder)
+        print(folder)
     
 
     def CreateDir(self): 
